@@ -1,0 +1,492 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#headerSec{
+    width: 100%;
+    background-image: url('./images/heroimg1.jpg');
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#topBar{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    z-index: 10;
+}
+
+#logo{
+    cursor: pointer;
+    color: goldenrod;
+}
+#logoDesc{
+    cursor: pointer;
+    color: white;
+}
+
+#resortLogo{
+    text-align: center;
+}
+#links{
+    text-align: center;
+}
+#links>ul{
+    display: flex;
+    list-style-type: none;    
+}
+
+#links>ul>li{
+    padding: 10px;
+}
+
+#links>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+#links>ul>li>a:hover{
+    text-decoration: none;
+    color: goldenrod;
+}
+
+#links>ul>li>a>span{
+    padding-right: 6px;
+    color: goldenrod;
+}
+
+#links>ul>li>#home{
+    color: goldenrod;
+}
+
+
+/* hero section */
+
+#hero{
+    display: flex;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    text-align: center;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+#hero>h1{
+    margin: 20px;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 20px;
+    text-shadow: 0px 0px 10px goldenrod;
+}
+#hero>h3{
+    text-shadow: 0px 0px 10px white;
+    color: goldenrod;
+    margin: 20px;
+    font-size: 1rem;
+    letter-spacing: 10px;
+}
+.bookingButton{
+    width: fit-content;
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+.bookingButton:hover{
+    background-color: rgb(248, 185, 26);
+    color: black;
+}
+
+/* cards */
+
+#section2{
+    background-color: rgb(16, 16, 16);
+}
+
+#cards{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: -60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cardsElements{
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+.cardsElements>img{
+    width: 60%;
+}
+.cardsInfo>h2,h4{
+    color: goldenrod;
+    margin: 1rem 0rem;
+}
+.cardsInfo>h2{
+    font-size: 1.2rem;
+}
+.cardsInfo{
+    width: 60%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* SECTION THREE */
+#section3{
+    height: 500px;
+    display: flex;
+}
+#leftSec3>img{
+    height: 100%;
+}
+#rightSec3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(16, 16, 16);
+}
+#rightContent3{
+    width: 80%;
+    margin: auto;
+    color: goldenrod;
+}
+#rightContent3>h1{
+    color: white;
+    margin: 30px 0px;
+}
+#rightContent3>h3{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 2rem;
+    letter-spacing: 4px;
+    margin: 30px 0px;
+}
+#rightContent3>p{
+    margin: 20px 0px;
+    color: white;
+}
+
+.yellowline{
+    height: 2px;
+    background-color: goldenrod;
+    width: 30%;
+    border: none;
+}
+.readnow{
+    color: white;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 1rem;
+    background-color: goldenrod;
+    margin-left: -.1rem;
+    padding: 10px 20px;
+}
+
+/* SECTION FOUR*/
+
+#section4{
+    height: 650px;
+    background-image: url('./images/cafe.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    padding: 70px ;
+}
+#section4>h1{
+    margin-top: 30px;
+    text-shadow: 0px 0px 10px goldenrod;
+}
+#section4>h2{
+    color: goldenrod;
+}
+#popFood{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.popOrder{
+    height: 340px;
+    width: 30%;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.popOrder>img{
+    width: 80%;
+}
+.yellowline2{
+    width: 90%;
+}
+.popOrder>h4{
+    margin: 5px;
+    letter-spacing: 10px;
+    font-size: 1.2rem;
+    text-shadow: 0px 0px 10px rgb(255, 236, 23);    
+}
+.explore{
+    border: none;
+    margin: 0;
+}
+
+/* FIFTH SECTION */
+
+#section5{
+    height: 700px;
+    color: white;
+    background-image: url('./images/coffee.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sec5heading{
+    margin-top: 100px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#customers{
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#customercards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(41, 32, 28);
+    width: 28%;
+    padding: 30px;
+    padding-bottom: 50px;
+}
+#sec5heading>h1{
+    font-size: 2rem;
+}
+#sec5heading>h2
+{
+    color: goldenrod;
+    font-size: 1.8rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+#customercards>p{
+    width: 100%;
+    word-wrap: break-word;
+    margin: auto;
+    padding: 30px 0px;
+    font-size: 0.9rem;
+}
+#customercards>img  {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+#customercards>h2{
+    color: goldenrod;
+    font-size: 1.2rem;
+    font-family: 'Dancing Script', cursive;
+    margin-top: -10px;
+}
+#customercards>h3{
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+/* SECTION SIXTH */
+
+#section6{
+    height: 700px;
+    background-image: url('./images/table.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+#formcontainer{
+    position: relative;
+    bottom: -100px;
+    background-color: rgb(26, 32, 38);
+    width: 30%;
+    margin: auto;
+    color: white;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#bookingtable{
+    font-size: 1.8rem;
+    font-family: monospace;
+    letter-spacing: 5px;
+    font-weight: 100;
+}
+#bookingtable+h2{
+    margin: 20px;
+    font-size: 1.2rem;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 5px;
+    font-weight: 100;
+    color: goldenrod;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+input{
+    background-color: black;
+    outline: none;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+.dtp{
+    width: 32.5%;
+}
+.ne{
+    width: 49.3%;
+}
+#textarea{
+    color: white;
+    width: 100%;
+    padding: 10px;
+    resize: none;
+    background-color: black;
+    outline: none;
+    border: none;
+}
+.bt3{
+    background-color: goldenrod;
+    font-weight: bold;
+    border: none;
+}
+
+/* SECTION SEVEN */
+#section7{
+    height: 300px;
+    background-image: url('./images/louis-hansel-KQR3ENYfrpw-unsplash.jpg');
+    background-position: center;
+    display: flex;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 100;
+    justify-content: space-around;
+    padding: 0px 300px;
+    align-items: flex-end;
+}
+.numbers{
+    letter-spacing: 5px;
+    font-size: 4rem;
+}
+.counts{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.served{
+    font-family: monospace;
+    font-weight: 100;
+}
+
+.yellowline4{
+    width: 100%;   
+}
+
+#footer{
+    height: 300px;
+    background-color: rgb(26, 32, 38);
+    display: flex;    
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 200px;
+    color: white;
+}
+#footerlogo{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: monospace;
+}
+
+#footerlogo>h1{
+    margin: 20px;
+}
+#footercontact>h1{
+    margin: 20px;
+}
+#footercontact{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    flex-direction: column;
+    text-align: center;
+}
+#subscribe>input{
+    width: 70%;
+    margin: 10px;
+}
+#subscribe>button{
+    width: 70%;
+    padding: 10px;
+}
+#subscribe{
+    flex: 1;
+    flex-direction: column;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+#subscribe{
+    font-family: monospace;
+}
